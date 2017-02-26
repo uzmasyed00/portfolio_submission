@@ -1,0 +1,92 @@
+.grid {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.first-row {
+    display:flex;
+}
+
+.row-projects{
+    width:100%;
+    display:flex;
+}
+
+.column-logo{
+    width:50%
+}
+
+.column-heading{
+    width:50%
+}
+
+.row-heading{
+    width:100%;
+    color:blue;
+    text-align: right;
+}
+
+.row-front-end{
+    color:red;
+    text-align: right;
+}
+
+.col-blank{
+    width :5%;
+}
+
+hr {
+  border: 0;
+  background-color: #BCBBBB;
+  height: 3px;
+}
+
+#appify{
+   text-align: center;
+}
+
+#sunflower{
+    text-align: center;
+}
+
+#bokeh{
+    text-align: center;
+}
+
+#github_appify{
+   text-align: center;
+}
+
+#github_sunflower{
+    text-align: center;
+}
+
+#github_bokeh{
+    text-align: center;
+}
+
+.col-1, .col-2, .col-3{
+    width:100%
+}
+
+@media screen and (max-width:950px){
+    .row-projects{
+        flex-wrap:wrap;
+    }
+
+    .col-1 img, .col-2 img, .col-3 img{
+    display:block;
+    margin:0 auto
+    }
+}
+
+img{
+    max-width:100%;
+}
+
+
+
+
+
+
